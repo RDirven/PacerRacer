@@ -75,7 +75,7 @@ class PaceOffsetView extends WatchUi.SimpleDataField {
             var afterDecimalStr = numberStr.substring(decimalSeparatorIndex + 1, numberStr.length());
             
             var dotNumber = beforeDecimalStr + "." + afterDecimalStr;
-            var commaNumber = beforeDecimalStr + "," + afterDecimalStr;
+            //var commaNumber = beforeDecimalStr + "," + afterDecimalStr;
             
             var dotFloat = dotNumber.toFloat();
             var commaFloat = dotNumber.toFloat();
